@@ -5,21 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <script src="script.js"></script> -->
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>ROCK PAPER SCISSORS</title>
 </head>
 <body>
     <!-- <script src="script.js"></script> -->
      <header>
-        The RPS game begins here
+        <h2>
+            This is the EULA for the RPS game
+        </h2>
      </header>
      <section>
-        <h2>
-            This is the EULA
-        </h2>
+        
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum doloremque perferendis ab expedita beatae quia voluptatem at accusamus laboriosam nobis!
+            The Rock Paper Scissors is an easy game where you can play against the computer. The rules are simple <br/>
+            1 - Rock beats scissors<br/>
+            2 - scissors cuts paper (the paper's image is a leave in our case ... French people call it that way)<br/>
+            3 - paper beats rock (because it covers the rock)<br/>
+            In this specific game, you can just click on the image you want to bet and see if you win against what the computer has chosen in the background.
+            The score track is maintain at the top corner right.
         </p>
      </section>
-     <script src="script.js"></script>
+     <div id="endResult">Total score</div>
+     <section class="items">
+        <div class="rps_objects">
+            <img src="images/rock.png" alt="rock" id="rock">
+        </div>
+        <div class="rps_objects">
+            <img src="images/paper.png" alt="paper" id="paper">
+        </div>
+        <div class="rps_objects">
+            <img src="images/scissors.png" alt="scissors" id="scissors">
+        </div>
+        
+        <!-- <button class="btn" id="rock">ROCK</button> -->
+        <!-- <button class="btn" id="paper">PAPER</button> -->
+        <!-- <button class="btn" id="scissors">SCISSORS</button> -->
+     </section>
+
+     <!-- <section class="computer seclection">
+
+     </section> -->
+     <div id="result">current score</div>
+     
 </body>
 </html>
